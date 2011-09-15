@@ -1,0 +1,50 @@
+Perintah GIT
+
+Membuat repository
+1. Buat dulu foldernya menggunakan windows explorer
+   Misalnya My document\apaitu-git
+
+2. Buka command prompt
+   Start > Run > ketik cmd > tekan enter
+
+3. Pindah ke folder yang akan dibuatkan repositorynya
+   cd My document
+   cd apaitu-git
+
+4. Inisialisasi repository
+   git init
+
+5. Periksa hasilnya di windows explorer
+   tools > folder option > view > show hidden files
+   harusnya ada folder .git di dalam my document\apaitu-git 
+
+
+Melihat status folder kerja (working folder)
+1. melihat status
+   git status
+
+   Untracked files : file yang belum tersimpan di repository
+
+2. Mendaftarkan file untuk disimpan
+   git add namafile
+
+3. Lihat status setelah add
+   git status
+
+   Changes to be commited : perubahan yang akan disimpan
+
+4. Menyimpan perubahan
+   git commit -m keterangan perubahan
+
+5. Melihat history perubahan
+   git log
+	
+6. Edit file 
+
+Setting username dan email
+   git config user.name
+   git config user.email
+
+halo halo
+
+ 
